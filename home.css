@@ -1,0 +1,341 @@
+.nav {
+  display: flex;
+  position: fixed;
+  background-color: white;
+  height: 70px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.navLink {
+  font-size: 11px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 20px;
+  margin-left: 25px;
+  color: rgb(54, 48, 48);
+  margin-top: 5px;
+}
+.navLink:hover {
+  color: red;
+}
+a:link {
+  text-decoration: none;
+}
+.tayota {
+  color: #cb1d1d;
+  padding-left: 50px;
+  margin-top: 17px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.BUYONLINE {
+  border-radius: 5px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.BUYONLINE1 {
+  background-color: #cb1d1d;
+  margin-left: 60px;
+  margin-top: 17px;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+}
+.BUYONLINE {
+  font-size: 10px;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+.bangloreonly {
+  font-size: 8px;
+  padding-left: 20px;
+}
+.phone {
+  padding-left: 17px;
+  padding-top: 30px;
+}
+.commenting {
+  /* padding-right: 20px; */
+  padding-top: 15px;
+}
+
+/* ----------------header end----------------- */
+
+/* ----------------header----------------- */
+
+.banner-iamge {
+  display: flex;
+  overflow: scroll;
+  /* overflow: hidden; */
+}
+.banner-icon {
+  font-size: 50px;
+}
+.banner-iamge::-webkit-scrollbar {
+  display: none;
+}
+/* .id-image-1 {
+  background-image: url(public/fortuner-leader-edition.jpg);
+  width: 5500px;
+  height: 500px;
+  background-size: cover;
+  margin-top: 70px;
+}
+.id-image-2 {
+  background-image: url(public/urban-cruiser-taisor-homepage-banner.jpg);
+  width: 1000px;
+  height: 500px;
+  background-size: cover;
+
+
+} */
+/* ----------------header end----------------- */
+
+/* ----------------section----------------- */
+.icons-1 {
+  background-color: rgb(250, 249, 249);
+  width: 100%;
+  margin-top: -18px;
+  height: 90px;
+}
+.ul {
+  display: flex;
+  list-style: none;
+  overflow: hidden;
+}
+.iconName {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  margin-top: 29px;
+  padding-left: 15px;
+  color: grey;
+}
+.vl {
+  border-right: 1px solid grey;
+  height: 50px;
+  margin-top: -50px;
+  padding-left: 165px;
+}
+.virtual-showroom {
+  width: 100%;
+}
+/* ----------------section end----------------- */
+
+/* ----------------section---------------- */
+
+.line-head {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.cars {
+  display: flex;
+  padding-left: 100px;
+}
+.cars-1:hover {
+  color: grey;
+}
+.cars-1 {
+  width: 14%;
+  padding: 10px;
+}
+.carName {
+  display: flex;
+  padding-left: 100px;
+}
+.carName1 {
+  width: 13%;
+  padding-left: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.cars-2 {
+  display: flex;
+  width: 14%;
+  padding-left: 20px;
+  margin-top: -30px;
+}
+/* ----------------section end----------------- */
+
+/* ----------------section ----------------- */
+
+.Awsome-image1 {
+  width: 20%;
+  margin-left: 20px;
+}
+.Awsome-1 {
+  display: flex;
+  padding: 20px;
+}
+.AwsomeName {
+  padding-left: 140px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 100px;
+}
+.AwsomeButton {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: #cb1d1d;
+  color: white;
+  height: 40px;
+  width: 130px;
+  margin-left: 40px;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+/* ----------------section end ----------------- */
+
+/* ----------------section --------------------- */
+
+.Head-1 {
+  font-weight: bolder;
+  padding-left: 100px;
+  padding-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.Head-2 {
+  font-weight: bolder;
+  padding-left: 100px;
+  margin-top: -10px;
+  color: rgb(36, 31, 31);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.date {
+  padding-left: 120px;
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+}
+.month {
+  padding-left: 120px;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: -20px;
+}
+.Release-sub-head-1 {
+  padding-left: 80px;
+  color: black;
+  margin-top: -135px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  display: block;
+}
+.Release-sub-head-1:hover {
+  color: red;
+}
+.sub-head-1 {
+  padding-left: 80px;
+  margin-top: -10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  display: block;
+  font-size: 12px;
+}
+.sub-head-1-line {
+  width: 87%;
+  margin-left: 12.6%;
+}
+.iframe {
+  background-color: white;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+/* ----------------footer--------------------- */
+
+.links2 {
+  color: rgb(190, 182, 182);
+  font-size: 12px;
+  margin-top: 30px;
+  margin-left: 82px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.links2:hover {
+  color: #3f3a3a;
+}
+.footH1 {
+  margin-left: 10px;
+}
+.vl1 {
+  height: 15px;
+  border-left: 1px solid grey;
+  margin-left: 1%;
+  margin-top: 30px;
+}
+.foot-line {
+  margin-top: -18%;
+  border-top: 1px solid rgb(204, 179, 179);
+  margin-left: 6%;
+  width: 89%;
+}
+.foot-head {
+  margin-left: 6%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.foot-dl {
+  color: rgb(180, 174, 174);
+  margin-left: 6%;
+  font-size: 12px;
+  height: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.foot-dl-color {
+  color: rgb(190, 182, 182);
+}
+.foot-dl-color:hover {
+  color: #3f3a3a;
+}
+.foot-head2 {
+  margin-left: 400px;
+  margin-top: -210px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.foot-dl1 {
+  color: rgb(190, 182, 182);
+  font-family: Arial, Helvetica, sans-serif;
+  height: 25px;
+  font-size: 12px;
+  margin-left: 400px;
+}
+.foot-dl1:hover {
+  color: #3f3a3a;
+}
+.foot-head3 {
+  margin-left: 650px;
+  margin-top: -105px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.foot-icon {
+  color: rgb(190, 182, 182);
+  margin-left: 20px;
+}
+.foot-icon:hover {
+  color: #3f3a3a;
+}
+.foot-tayota {
+  margin-left: 1000px;
+  margin-top: -30px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+/* ----------------footer end--------------------- */
